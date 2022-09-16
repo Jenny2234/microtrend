@@ -1,0 +1,2 @@
+# microtrend
+ ntc.microtrend.tw
