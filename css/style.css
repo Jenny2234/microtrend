@@ -1,0 +1,140 @@
+/* 預設 */
+* {
+    font-family: "Microsoft" "JhengHei";
+    /* 微軟正黑體 */
+    /* font-family:DFKai-sb; */
+
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    margin: 0;
+    padding: 0;
+}
+
+/* 預設end */
+.color {
+	background: linear-gradient(45deg, #dfc75c 5%, #5cc091 80%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	/* font-size: 80px; */
+	font-weight: bold;
+}
+
+li {
+    position: relative;
+    /* left:450px ; */
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+    border-radius: .25rem;
+    /* margin: 0 0.25em; */
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus{
+    color: #4db7a5;
+    font-size: large;
+}
+
+.footer a {
+    color: #22221d;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #4db7a5;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+/* 箭頭 */
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: rgb(232, 74, 74);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -40px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 529px;
+}
+
+/* 網頁捲軸【寬度】 */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* 網頁捲軸【背景】顏色 */
+::-webkit-scrollbar-track {
+    background: #5b875f;
+}
+
+/* 網頁捲軸【把手】顏色 */
+::-webkit-scrollbar-thumb {
+    background: #d5d2b1;
+    border-radius: 50px;
+}
+
+/* 網頁捲軸【滑過時】把手的顏色 */
+::-webkit-scrollbar-thumb:hover {
+    background: #d8d071;
+}
+.butn{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(200deg, #ebe8bd 25%, #a9d1be 74%);
+    border-radius: 15px;
+}
+.butn:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) inset;
+    background-image: linear-gradient(200deg, #f2ec91 25%, #7db69b 74%);
+    border-radius: 30px;
+}
+.caro{
+    min-width: 230px;
+    max-width: 500px;
+    min-height: 270px;
+    margin: 20px auto 0px auto;
+    /* display: flex; */
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-content: center;      
+    /* flex-wrap: wrap;   */
+    /* position: relative;
+    bottom: 50px; */
+}
+#server:hover{
+    height: 1000px;
+}
